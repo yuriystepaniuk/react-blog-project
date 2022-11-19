@@ -2,10 +2,9 @@ import React from "react"
 import AppBar from "@mui/material/AppBar"
 import Toolbar from "@mui/material/Toolbar"
 import Typography from "@mui/material/Typography"
-import { Button, Container } from "@mui/material"
+import { Container } from "@mui/material"
 import "./Header.scss"
 import Menu from "components/Menu/Menu"
-import { NavLink } from "react-router-dom"
 
 type Props = {}
 

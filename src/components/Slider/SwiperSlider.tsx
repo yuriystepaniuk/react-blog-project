@@ -5,6 +5,7 @@ import "swiper/css"
 export default () => {
     return (
         <Swiper
+        
             spaceBetween={10}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
