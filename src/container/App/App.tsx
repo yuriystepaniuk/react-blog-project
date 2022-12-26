@@ -6,7 +6,9 @@ import Footer from "../Footer/Footer"
 import "./App.scss"
 import { StyledEngineProvider } from "@mui/material"
 
-type Props = {}
+type Props = {
+}
+
 export const App = (props: Props) => {
     return (
         <>

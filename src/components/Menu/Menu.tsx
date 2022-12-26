@@ -30,6 +30,11 @@ const Menu = (props: Props) => {
                         Contact
                     </NavLink>
                 </Button>
+                <Button>
+                    <NavLink to="/reviews" className={({ isActive }) => isActive ? "active-header-menu" : "header-menu" }>
+                        Reviews
+                    </NavLink>
+                </Button>
             </div>
         </>
     )

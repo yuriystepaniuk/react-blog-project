@@ -1,0 +1,61 @@
+$btn-color: #118DA8;
+
+.one-review {
+    background-color: black;
+    border-radius: 30px;
+    .item-block {
+    padding:50px 60px 50px 50px;
+    background-color: black ;
+    border-radius: 32px;
+    height: 22rem;
+        .description-comment {
+            font-size: 35.2px ;
+            color: rgb(255, 255, 255);
+            line-height: 43px;
+            padding-bottom: 19px;
+
+        }
+        .autor-comment {
+            color: rgb(255, 255, 255, 0.7);;
+            font-size: 24px;
+            line-height: 29px;
+        }
+    }
+}
+    .btn-review {
+        color: white;
+        background-color: $btn-color;
+        text-transform: none;
+        font-size:17px;
+        width: 100px;
+        margin-bottom: 30px;
+        &:hover {
+            background-color: rgba(17, 140, 168, 0.85);
+        }
+    }
+
+        .text-field {
+            width: 300px;
+            font-size: 17px;
+            input{
+                color:white;
+                
+            }
+            &:active, &:hover {
+                border: 1px solid white;
+        }
+    }
+    .text-area {
+        padding: 10px 15px;
+        color:White;
+        font-size:17px;
+        min-width: 300px;
+        max-width: 300px;
+        max-height: 200px;
+        &:after, &:active{
+            border-color:  rgb(255, 255, 255, 0.7);;
+        }
+    }
+
+    
+    

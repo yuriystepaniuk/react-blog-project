@@ -1,11 +1,13 @@
-type Coments = {
+
+
+export type Comments = {
     id: number
     image: string
     autor: string
     content: string
 }
 
-const commentsArray: Coments[] = [
+const commentsArray: Comments[] = [
     {
         id: 1,
         image: "images/star-pic.png",
@@ -43,4 +45,6 @@ const commentsArray: Coments[] = [
         autor: "Steven Blast",
     }
 ]
+
+
 export default commentsArray

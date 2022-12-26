@@ -6,7 +6,8 @@ import Slider from "components/Slider/Slider"
 import Subscribe from "components/Subscribe/Subscribe"
 import "./Home.scss"
 
-type Props = {}
+type Props = {
+}
 
 const Home = (props: Props) => {
     return (

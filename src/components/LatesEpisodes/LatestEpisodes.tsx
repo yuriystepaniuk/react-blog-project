@@ -13,13 +13,15 @@ type EpisodeProps = {
     id: number
 }
 
-type Props = {}
+type Props = {
+}
 
 const LatestEpisodes = (props: Props) => {
+    
     return (
         <div className="latest-episodes">
             <div className="title-header">
-                <h1>Latest episodes</h1>
+                <h1> Latest episodes</h1>
                 <Button className="btn">View all episodes</Button>
             </div>
             <div className="content">
@@ -27,6 +29,7 @@ const LatestEpisodes = (props: Props) => {
                     ({
                         category,
                         episodeNumber,
+                        
                         title,
                         description,
                         image,

@@ -1,7 +1,8 @@
 import LatestEpisodes from "components/LatesEpisodes/LatestEpisodes"
 import React from "react"
 
-type Props = {}
+type Props = {
+}
 
 const Episodes = (props: Props) => {
     return (

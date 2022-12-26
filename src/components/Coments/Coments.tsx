@@ -2,7 +2,9 @@ import { Grid } from "@mui/material"
 import React from "react"
 import "./Coments.scss"
 import OneComent from "./OneComent"
-import commentsArray from "./CommentsArray"
+import commentsArray from "components/Coments/CommentsArray"
+
+
 
 type CommentProps = {
     image: string

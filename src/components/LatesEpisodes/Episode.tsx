@@ -24,6 +24,9 @@ const Episode = ({
                 <div className="category">
                     <span>{category}</span>
                 </div>
+                <div className="liked">
+                    <span>liked</span>
+                </div>
                 <div className="episode-number">Episode {episodeNumber}</div>
                 <div className="title">{title}</div>
                 <p className="description">{description}</p>
