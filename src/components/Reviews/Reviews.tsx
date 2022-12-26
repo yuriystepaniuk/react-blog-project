@@ -9,7 +9,6 @@ import {
 import commentsArray from "components/Coments/CommentsArray"
 import React, { useState } from "react"
 import "./Reviews.scss"
-import { styled } from "@mui/material/styles"
 
 
 type Props = {}
